@@ -3,7 +3,7 @@
   hosts: all
 # become: yes
   tasks:
-    - name: Change the working directory to somedir/ before executing the command
+    - name: Ejecuta script
       ansible.builtin.shell: "sh prueba.sh"
       args:
         chdir: "/tmp/"
