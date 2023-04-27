@@ -1,9 +1,9 @@
 ---
-- name: Ejecuta script
+- name: Ejecuta script en localhost
   hosts: localhost
-# become: yes
+  gather_facts: false
   tasks:
-    - name: Ejecuta script
+    - name: Ejecuta script en localhost
       ansible.builtin.shell: "sh prueba.sh"
       args:
         chdir: "/tmp/"
