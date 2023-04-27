@@ -1,7 +1,6 @@
 ---
 - name: Ejecuta script
   hosts: all
-# become: yes
   tasks:
     - name: Ejecuta script
       ansible.builtin.shell: "sh prueba.sh"
