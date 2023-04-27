@@ -1,7 +1,6 @@
 ---
 - name: Eliminar fichero
   hosts: all
-# become: yes
   tasks:
     - name: imprime ruta buscada
       debug:
