@@ -7,5 +7,5 @@
         msg: "/tmp/prueba.tmp"
     - name: Elimina fichero
       ansible.builtin.file:  
-        path: "/tmp/prueba.tmp"
+        path: /tmp/prueba.tmp
         state: absent
