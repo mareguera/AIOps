@@ -1,6 +1,6 @@
 ---
 - name: Ejecuta script
-  hosts: all
+  hosts: localhost
 # become: yes
   tasks:
     - name: Ejecuta script
