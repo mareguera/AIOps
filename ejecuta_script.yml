@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Ejecuta script
-      script: /tmp/prueba.sh
+      command: sh /tmp/prueba.sh
       #ansible.builtin.shell: "sh prueba.sh"
       #args:
       #  chdir: "/tmp/"
