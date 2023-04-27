@@ -2,10 +2,10 @@
 - name: Eliminar fichero
   hosts: all
   tasks:
-    - name: imprime ruta buscada
+    - name: Muestra fichero a borrar
       debug:
         msg: "/tmp/prueba.tmp"
-    - name: Eliminar
+    - name: Elimina fichero
       ansible.builtin.file:  
         path: "/tmp/prueba.tmp"
         state: absent
