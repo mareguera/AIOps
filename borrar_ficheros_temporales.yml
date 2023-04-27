@@ -5,8 +5,8 @@
   tasks:
     - name: imprime ruta buscada
       debug:
-        msg: "/tmp/*.tmp"
+        msg: "/tmp/prueba.tmp"
     - name: Eliminar
       ansible.builtin.file:  
-        path: "/tmp/*.tmp"
+        path: "/tmp/prueba.tmp"
         state: absent
