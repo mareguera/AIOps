@@ -3,9 +3,9 @@
   hosts: all
   tasks:
     - name: Elimina fichero
-      #ansible.builtin.file:  
-      #  path: /tmp/prueba.tmp
-      #  state: absent
-      file:
-         path: /tmp/prueba.tmp
-         state: absent
+      ansible.builtin.file:  
+        path: /tmp/prueba.tmp
+        state: absent
+      #file:
+      #   path: /tmp/prueba.tmp
+      #   state: absent
