@@ -4,8 +4,5 @@
   tasks:
     - name: Elimina fichero
       ansible.builtin.file:  
-        path: /tmp/*.tmp
+        path: /tmp/borra.tmp
         state: absent
-      #file:
-      #   path: /tmp/prueba.tmp
-      #   state: absent
