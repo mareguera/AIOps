@@ -4,7 +4,7 @@
   gather_facts: false
   tasks:
     - name: Ejecuta script en localhost
-      ansible.builtin.shell: "sh prueba.sh"
+      ansible.builtin.shell: "sh prueba2.sh"
       args:
         chdir: "/tmp/"
       #command: sh /tmp/prueba.sh
