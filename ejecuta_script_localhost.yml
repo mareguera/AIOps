@@ -5,7 +5,7 @@
   tasks:
     - name: Dame estado del objeto
       ansible.builtin.stat:
-        path: "/tmp/prueba2.sh"
+        path: "/tmp"
       register: sym
 
     - name: Print a debug message
