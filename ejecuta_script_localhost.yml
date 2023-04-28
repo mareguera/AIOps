@@ -31,5 +31,5 @@
     - name: Ejecuta script en localhost
       ansible.builtin.shell: "ls -al"
       args:
-        chdir: "/"
+        chdir: "/tmp"
       #command: sh /tmp/prueba.sh
