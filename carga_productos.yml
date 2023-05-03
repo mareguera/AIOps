@@ -1,0 +1,9 @@
+---
+- name: Ejecuta script carga_productos.sh
+  hosts: all
+  tasks:     
+    - name: Ejecuta script
+      #command: sh /tmp/prueba.sh
+      ansible.builtin.shell: "sh carga_productos.sh"
+      args:
+        chdir: "/home/mareguera/ansible/bin"
