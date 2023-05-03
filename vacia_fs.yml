@@ -1,0 +1,9 @@
+---
+- name: Ejecuta script vacia_fs.sh
+  hosts: all
+  tasks:     
+    - name: Ejecuta script
+      #command: sh /tmp/prueba.sh
+      ansible.builtin.shell: "sh vacia_fs.sh"
+      args:
+        chdir: "/home/mareguera/ansible/bin"
